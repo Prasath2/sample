@@ -10,7 +10,7 @@ jobs:
           pwd
           echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
-          cho $GITHUB_WORKSPACE
+          echo $GITHUB_WORKSPACE
       - name: Simple js action 
         uses: actions/hello-world-javascript-action@v1.1
         with:
