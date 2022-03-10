@@ -1,0 +1,9 @@
+name: Actions workflow
+on: [push]
+
+jobs:
+  run-javascript:
+    runs-on: windows-latest
+    steps:
+      - name: Simple js action 
+        uses: yankils/hello-world@master
