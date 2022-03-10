@@ -6,4 +6,4 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Simple js action 
-        uses: yankils/hello-world@master
+        uses: yankils/hello-world-javascript-action@master
