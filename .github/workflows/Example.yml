@@ -17,6 +17,7 @@ jobs:
   
   bash-comman:
     runs-on: windows-latest
+    needs: [shell-comman]
     steps:
       - name: Powershell
         run: Get-Location
