@@ -6,4 +6,4 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Simple js action 
-        uses: yankils/blackbird71SR/Hello-World@master
+        uses: blackbird71SR/Hello-World@master
