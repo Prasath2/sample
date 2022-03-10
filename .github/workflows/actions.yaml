@@ -5,15 +5,15 @@ jobs:
   run-javascript:
     runs-on: windows-latest
     steps:
+      - name: List Files
+        run:  |
+
+            echo $GITHUB_SHA
+            echo $GITHUB_REPOSITORY
+            echo $GITHUB_WORKSPACE
       - name: Simple js action 
         uses: actions/hello-world-javascript-action@v1.1
         with:
            who-to-greet: 'Prasath Kumar'
-      - name: List Files
-        run:  |
-            pwd
-            ls
-            echo $GITHUB_SHA
-            echo $GITHUB_REPOSITORY
-            echo $GITHUB_WORKSPACE
+      
 
