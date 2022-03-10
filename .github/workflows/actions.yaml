@@ -8,6 +8,6 @@ jobs:
         # - name: Simple js action 
         #   uses: macagua/example.java.helloworld@master
       - name: List Files
-        run:
+        run:  |
             pwd
             ls
