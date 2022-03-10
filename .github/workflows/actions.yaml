@@ -7,9 +7,11 @@ jobs:
     steps:
       - name: List Files
         run: |
-            echo $GITHUB_SHA
-            echo $GITHUB_REPOSITORY
-            echo $GITHUB_WORKSPACE
+          pwd
+          ls -A 
+          echo $GITHUB_SHA
+          echo $GITHUB_REPOSITORY
+          cho $GITHUB_WORKSPACE
       - name: Simple js action 
         uses: actions/hello-world-javascript-action@v1.1
         with:
