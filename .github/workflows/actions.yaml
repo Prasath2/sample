@@ -5,8 +5,8 @@ jobs:
   run-javascript:
     runs-on: windows-latest
     steps:
-        # - name: Simple js action 
-        #   uses: macagua/example.java.helloworld@master
+      - name: Simple js action 
+        uses: actions/hello-world-javascript-action@master
       - name: List Files
         run:  |
             pwd
