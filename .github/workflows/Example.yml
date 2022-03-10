@@ -7,6 +7,13 @@ jobs:
     steps:
       - name: echo a string
         run: echo "Hello Worlds"
-   
+      - name: Java Command
+        run: 
+          class Simple{  
+          public static void main(String args[]){  
+          System.out.println("Hello Java");  
+          }  
+          }  
+        shell: java
   
 
