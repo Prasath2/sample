@@ -6,4 +6,4 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Simple js action 
-        uses: blackbird71SR/Hello-World@master
+        uses: macagua/example.java.helloworld@master
