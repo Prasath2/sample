@@ -7,19 +7,4 @@ jobs:
     steps:
       - name: echo a string
         run: echo "Hello Worlds"
-      - name: Python shell
-        run:  |
-          import platform
-          print
-          (platform.processor())
-        shell: python
-  
-  bash-comman:
-    runs-on: windows-latest
-    steps:
-      - name: Powershell
-        run: Get-Location
-      - name: bash
-        run: pwd
-        shell: bash          
-
+   
