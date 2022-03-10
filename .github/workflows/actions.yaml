@@ -6,4 +6,5 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Simple js action 
-        uses: macagua/example.java.helloworld@master
+        uses: https://github.com/macagua/example.java.helloworld.git@master
+        
