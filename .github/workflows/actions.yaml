@@ -9,7 +9,7 @@ on: [push]
 
 jobs:
   run-javascript:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: List Files
         run:  |
