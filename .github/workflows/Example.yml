@@ -1,8 +1,22 @@
 name: Shell Commands
 on: 
   push:
+    branches:    
+      - main
+    # - 'features/*'  matches features/featureA
+    # - 'features/**'  matches features/featureA/Aa
+    # - '!features/featureA'
+
   pull_request:
       types: [opened , reopened , closed ]
+
+  # branches-ignore:    
+
+  # tags:
+    # -v2*
+
+  # paths:
+    # -'**.js'
 
 jobs:
   shell-comman:

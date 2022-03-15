@@ -1,5 +1,11 @@
 name: Actions workflow
 on: [push]
+  # repository_dispatch:
+    # type: [object]
+  # schedule:
+  # - cron: "0/5 * * * *"
+  # - cron: "0-5 * * * *"
+  
 
 jobs:
   run-javascript:
